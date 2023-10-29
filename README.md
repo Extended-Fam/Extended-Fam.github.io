@@ -1,3 +1,3 @@
-# extended-fam.github.io
+# Extended Family Co
 
-## Extended Family Co — Landing Page
+[Landing Page](extended-fam.github.io)
