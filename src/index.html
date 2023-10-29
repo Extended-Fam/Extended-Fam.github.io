@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Extended Family Co | Product Studio + Growth Agency</title>
+		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+		<meta property="og:title" content="Extended Family Co | Product Studio + Growth Agency" />
+		<meta property="og:site_name" content="Extended Family Co" />
+		<meta property="og:url" content="https://www.extendedfam.co" />
+		<meta
+			property="og:description"
+			content="We are a product studio+growth agency focused on connected consumers and the brands that serve them."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="./assets/opengraph-image.png" />
+		<link href="/dist/output.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="./fullpage.min.css" />
+		<meta name="copyright" content="2023 Extended Family Co" />
+		<script type="text/javascript" src="./fullpage.min.js"></script>
+		<meta
+			name="keywords"
+			content="product, growth, studio, agency, extended family co, extendedfamco, extendedfam, extended fam"
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="language" content="English" />
+		<meta name="locale" content="en_US" />
+		<meta name="revisit-after" content="30 days" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Extended Family Co | Product Studio + Growth Agency" />
+		<meta name="twitter:site" content="@extendedfamco" />
+		<meta
+			name="twitter:description"
+			content="We are a product studio+growth agency focused on connected consumers and the brands that serve them."
+		/>
+		<meta name="twitter:image" content="./assets/opengraph-image.png" />
+		<meta name="twitter:image:alt" content="Extended Family Co" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav id="menu" class="sticky top-0 z-50 h-[7vh] w-screen bg-white shadow-md">
+			<div class="flex h-full w-full flex-row items-center justify-between px-4 md:px-6 lg:justify-around lg:px-0">
+				<a href="">
+					<img
+						src="./assets/logos/purpleSmall.svg"
+						alt="Extended Family Logo"
+						class="h-4 w-auto md:h-5 lg:h-3 xl:h-6"
+					/>
+				</a>
+				<a
+					href="#how-we-work"
+					class="hidden font-sans font-light text-black transition duration-500 ease-in-out hover:text-[#866FE3] lg:block"
+					>How we work</a
+				>
+				<a
+					href="#partners-and-advisors"
+					class="hidden font-sans font-light text-black transition duration-500 ease-in-out hover:text-[#866FE3] lg:block"
+					>Partners & advisors</a
+				>
+
+				<a
+					href="#what-we-do"
+					class="hidden font-sans font-light text-black transition duration-500 ease-in-out hover:text-[#866FE3] lg:block"
+					>What we do</a
+				>
+				<a
+					href="#clients"
+					class="hidden font-sans font-light text-black transition duration-500 ease-in-out hover:text-[#866FE3] lg:block"
+					>Clients</a
+				>
+				<a
+					href="#pricing"
+					class="hidden font-sans font-light text-black transition duration-500 ease-in-out hover:text-[#866FE3] lg:block"
+					>Pricing</a
+				>
+				<div class="flex flex-row items-center gap-x-3">
+					<a
+						href="mailto:hello@extendedfam.co"
+						target="_blank"
+						class="group mx-auto my-3 ml-3 hidden w-fit flex-row items-center justify-center gap-x-3 rounded-full px-4 py-2.5 ring-[0.5px] ring-[#866FE3] transition duration-500 ease-in-out hover:ring-2 md:flex"
+					>
+						<p
+							class="font-sans text-sm font-light leading-none tracking-wide text-black transition duration-500 ease-in-out group-hover:text-[#866FE3] md:text-base md:leading-none"
+						>
+							Get in touch
+						</p>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="lucide lucide-rocket h-4 w-4 fill-none text-black transition duration-500 ease-in-out group-hover:animate-pulse group-hover:text-[#866FE3]"
+						>
+							<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+							<path
+								d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+							/>
+							<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+							<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+						</svg>
+					</a>
+					<button
+						id="hamburger-icon"
+						class="font-sans text-2xl font-medium text-[#866FE3] lg:hidden"
+						onclick="toggleMobileMenu(this)"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="#000"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="lucide lucide-menu"
+						>
+							<line x1="4" x2="20" y1="12" y2="12" />
+							<line x1="4" x2="20" y1="6" y2="6" />
+							<line x1="4" x2="20" y1="18" y2="18" />
+						</svg>
+						<ul class="mobile-menu bg-white py-12">
+							<li>
+								<a class="text-center font-sans text-3xl font-light leading-none text-black" href="#how-we-work"
+									>How we work</a
+								>
+							</li>
+							<li>
+								<a
+									class="text-center font-sans text-3xl font-light leading-none text-black"
+									href="#partners-and-advisors"
+									>Partners & advisors</a
+								>
+							</li>
+							<li>
+								<a class="text-center font-sans text-3xl font-light leading-none text-black" href="#clients">Clients</a>
+							</li>
+							<li>
+								<a class="text-center font-sans text-3xl font-light leading-none text-black" href="#what-we-do"
+									>What we do</a
+								>
+							</li>
+							<li>
+								<a class="text-center font-sans text-3xl font-light leading-none text-black" href="#pricing">Pricing</a>
+							</li>
+							<li>
+								<a
+									class="text-center font-sans text-3xl font-light leading-none text-black"
+									href="mailto:hello@extendedfam.co"
+									target="_blank"
+									>Get in touch</a
+								>
+							</li>
+						</ul>
+					</button>
+				</div>
+			</div>
+		</nav>
+		<!-- FullPage JS Scroll Container -->
+		<div id="fullpage">
+			<!-- Hero -->
+			<div class="section flex h-[93vh] w-screen flex-row items-center justify-center bg-[#173320]">
+				<div class="flex h-auto w-full flex-col items-center justify-center gap-6">
+					<img src="./assets/logos/purple.svg" alt="Extended Family Logo" class="w-80 lg:w-full lg:max-w-xl" />
+					<h2
+						class="px-4 text-center font-sans text-lg font-light leading-snug tracking-wide text-[#257756] md:max-w-xl md:text-2xl md:leading-snug lg:max-w-4xl lg:text-3xl lg:leading-snug"
+					>
+						We are a product studio+growth agency focused on connected consumers and the brands that serve them.
+					</h2>
+					<a
+						href="mailto:hello@extendedfam.co"
+						target="_blank"
+						class="group mx-auto my-3 flex w-fit flex-row items-center justify-center gap-x-3 rounded-full px-4 py-2.5 ring-[0.5px] ring-[#866FE3] transition duration-500 ease-in-out hover:ring-2"
+					>
+						<p
+							class="font-sans text-base font-light leading-none tracking-wide text-white transition duration-500 ease-in-out group-hover:text-[#866FE3] md:text-lg md:leading-none"
+						>
+							hello@extendedfam.co
+						</p>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="lucide lucide-rocket h-4 w-4 fill-none text-white transition duration-500 ease-in-out group-hover:animate-pulse group-hover:text-[#866FE3]"
+						>
+							<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+							<path
+								d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+							/>
+							<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+							<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+						</svg>
+					</a>
+				</div>
+			</div>
+			<!-- How We Work -->
+			<div class="section flex h-[93vh] w-screen flex-row items-center justify-center bg-white">
+				<div class="mx-auto flex h-auto w-5/6 flex-col items-start justify-center gap-y-6 lg:!w-full lg:items-center">
+					<h2
+						class="text-left font-sans text-3xl font-black leading-none text-[#173320] md:text-5xl md:leading-none lg:text-center"
+					>
+						How we work
+					</h2>
+					<h3
+						class="text-left font-sans text-lg font-medium leading-snug tracking-wide text-[#257756] md:max-w-2xl md:text-2xl md:leading-relaxed lg:text-center lg:text-3xl lg:leading-relaxed xl:max-w-4xl"
+					>
+						Fractional CXOs + full-service dev shop & growth agency
+					</h3>
+					<div
+						class="mt-6 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-12 lg:mx-auto lg:mt-12 lg:max-w-3xl xl:max-w-5xl xl:grid-cols-3"
+					>
+						<div class="flex w-full flex-col items-start gap-y-2 md:gap-y-4">
+							<img src="./assets/media/oneGreen.svg" class="h-6 w-auto lg:h-8" />
+							<img src="./assets/media/purpleLine.svg" class="h-auto w-full" />
+							<p
+								class="font-sans text-base font-light leading-snug tracking-wide text-black md:text-lg md:leading-relaxed"
+							>
+								We work with startup leaders to assess their bespoke strategic needs and best-fit our services to
+								maximize business results.
+							</p>
+						</div>
+						<div class="flex w-full flex-col items-start gap-y-2 md:gap-y-4">
+							<img src="./assets/media/twoGreen.svg" class="h-6 w-auto lg:h-8" />
+							<img src="./assets/media/purpleLine.svg" class="h-auto w-full" />
+							<p
+								class="font-sans text-base font-light leading-snug tracking-wide text-black md:text-lg md:leading-relaxed"
+							>
+								Our data-driven team is comprised of seasoned DTC operators with executive leadership experience across
+								tech, product, marketing, and comms.
+							</p>
+						</div>
+						<div class="flex w-full flex-col items-start gap-y-2 md:gap-y-4">
+							<img src="./assets/media/threeGreen.svg" class="h-6 w-auto lg:h-8" />
+							<img src="./assets/media/purpleLine.svg" class="h-auto w-full" />
+							<p
+								class="font-sans text-base font-light leading-snug tracking-wide text-black md:text-lg md:leading-relaxed"
+							>
+								We work as embedded members of your team with absolutely zero ‘consultant vibes’, along with
+								full-service product development and marketing execution if needed.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Partners & Advisors -->
+			<div id="team" class="section h-[93vh] w-screen">
+				<div class="slide flex h-full w-screen flex-row items-center justify-center bg-[#173320]">
+					<h2
+						class="text-center font-sans text-3xl font-black leading-loose text-[#866FE3] lg:text-5xl lg:leading-loose"
+					>
+						Founding partners
+					</h2>
+					<div class="mx-auto mb-24 mt-6 grid w-5/6 grid-cols-1 gap-6 lg:mb-0 lg:w-11/12 lg:grid-cols-3 lg:gap-12">
+						<div class="h-fit w-full">
+							<div class="flex w-full flex-row items-center justify-center gap-x-6 lg:flex-col">
+								<img src="./assets/team/eric.svg" class="h-20 w-20 rounded-full lg:mb-6 lg:h-40 lg:w-40" />
+								<div class="flex flex-col items-start lg:items-center">
+									<h3 class="text-center text-xl font-bold tracking-wide text-[#866FE3] lg:text-3xl">Eric Richmond</h3>
+									<h4
+										class="text-center text-sm font-medium leading-relaxed tracking-wide text-[#257756] lg:mb-2 lg:mt-1 lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed"
+									>
+										Technology & Data
+									</h4>
+									<p
+										class="line-clamp-3 text-sm font-light leading-snug text-white md:w-64 lg:text-center lg:text-base lg:leading-relaxed"
+									>
+										Fmr Eng Director, Shopify 3x startup CTO with 3 exits
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="h-fit w-full">
+							<div class="flex w-full flex-row items-center justify-center gap-x-6 lg:flex-col">
+								<img src="./assets/team/matthew.svg" class="h-20 w-20 rounded-full lg:mb-6 lg:h-40 lg:w-40" />
+								<div class="flex flex-col items-start lg:items-center">
+									<h3 class="text-center text-xl font-bold tracking-wide text-[#866FE3] lg:text-3xl">Matthew Iles</h3>
+									<h4
+										class="text-center text-sm font-medium leading-relaxed tracking-wide text-[#257756] lg:mb-2 lg:mt-1 lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed"
+									>
+										Strategy & Growth
+									</h4>
+									<p
+										class="line-clamp-3 text-sm font-light leading-snug text-white md:w-64 lg:text-center lg:text-base lg:leading-relaxed"
+									>
+										2 growth agencies (1 Acq, 1 Active w/ 100+ employees), & 2 venture-backed software companies (1 Acq,
+										1 w/ $20m funding). Consulted for 100+ consumer brands ~15 years. Co-created General Assembly’s
+										Digital Marketing course.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="h-fit w-full">
+							<div class="flex w-full flex-row items-center justify-center gap-x-6 lg:flex-col">
+								<img src="./assets/team/nate.svg" class="h-20 w-20 rounded-full lg:mb-6 lg:h-40 lg:w-40" />
+								<div class="flex flex-col items-start lg:items-center">
+									<h3 class="text-center text-xl font-bold tracking-wide text-[#866FE3] lg:text-3xl">Nate Lew</h3>
+									<h4
+										class="text-center text-sm font-medium leading-relaxed tracking-wide text-[#257756] lg:mb-2 lg:mt-1 lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed"
+									>
+										Product & Marketing
+									</h4>
+									<p
+										class="line-clamp-3 text-sm font-light leading-snug text-white md:w-64 lg:text-center lg:text-base lg:leading-relaxed"
+									>
+										Fmr CEO, OpenFan (Acq) Head of Marketing, Songkick (Acq)
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide bg-[#173320] 2xl:pb-24">
+					<h2 class="text-center font-sans text-3xl font-black leading-none text-[#866FE3] lg:text-5xl lg:leading-none">
+						Partners & advisors
+					</h2>
+					<div class="mx-auto mt-12 grid w-4/5 grid-cols-1 gap-6 lg:w-5/6 lg:grid-cols-4 lg:gap-12 2xl:w-4/5">
+						<div class="h-auto w-full">
+							<div class="flex w-full flex-row items-center justify-center gap-x-6 lg:flex-col">
+								<img src="./assets/team/angela.svg" class="h-20 w-20 rounded-full lg:mb-6 lg:h-32 lg:w-32" />
+								<div class="flex flex-col items-start lg:items-center">
+									<h3 class="text-center text-xl font-bold tracking-wide text-[#866FE3]">Angela Goleme</h3>
+									<h4
+										class="text-center text-sm font-medium leading-relaxed tracking-wide text-[#257756] lg:mb-2 lg:mt-1 lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed"
+									>
+										Creative & Brand
+									</h4>
+									<p
+										class="line-clamp-3 text-sm font-light leading-snug text-white md:w-64 lg:text-center lg:text-base lg:leading-relaxed"
+									>
+										Fmr CCO, Primary Amazon, House of Noa, Cooper
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="h-auto w-full">
+							<div class="flex w-full flex-row items-center justify-center gap-x-6 lg:flex-col">
+								<img src="./assets/team/tiffany.svg" class="h-20 w-20 rounded-full lg:mb-6 lg:h-32 lg:w-32" />
+								<div class="flex flex-col items-start lg:items-center">
+									<h3 class="text-center text-xl font-bold tracking-wide text-[#866FE3]">Tiffany Beveridge</h3>
+									<h4
+										class="text-center text-sm font-medium leading-relaxed tracking-wide text-[#257756] lg:mb-2 lg:mt-1 lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed"
+									>
+										Content & Social
+									</h4>
+									<p
+										class="line-clamp-3 text-sm font-light leading-snug text-white md:w-64 lg:text-center lg:text-base lg:leading-relaxed"
+									>
+										Fmr Head of Content, Primary buybuyBaby, House of Noa
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="h-auto w-full">
+							<div class="flex w-full flex-row items-center justify-center gap-x-6 lg:flex-col">
+								<img src="./assets/team/rachel.svg" class="h-20 w-20 rounded-full lg:mb-6 lg:h-32 lg:w-32" />
+								<div class="flex flex-col items-start lg:items-center">
+									<h3 class="text-center text-xl font-bold tracking-wide text-[#866FE3]">Rachel Wexler</h3>
+									<h4
+										class="text-center text-sm font-medium leading-relaxed tracking-wide text-[#257756] lg:mb-2 lg:mt-1 lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed"
+									>
+										Finance & Operations
+									</h4>
+									<p
+										class="line-clamp-3 text-sm font-light leading-snug text-white md:w-64 lg:text-center lg:text-base lg:leading-relaxed"
+									>
+										Fmr Investor, Allen & Company Cofounder, Black Iris
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="h-auto w-full">
+							<div class="flex w-full flex-row items-center justify-center gap-x-6 lg:flex-col">
+								<img src="./assets/team/gabby.svg" class="h-20 w-20 rounded-full lg:mb-6 lg:h-32 lg:w-32" />
+								<div class="flex flex-col items-start lg:items-center">
+									<h3 class="text-center text-xl font-bold tracking-wide text-[#866FE3]">Gabby Slome</h3>
+									<h4
+										class="text-center text-sm font-medium leading-relaxed tracking-wide text-[#257756] lg:mb-2 lg:mt-1 lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed"
+									>
+										Partnerships & Biz Dev
+									</h4>
+									<p
+										class="line-clamp-3 text-sm font-light leading-snug text-white md:w-64 lg:text-center lg:text-base lg:leading-relaxed"
+									>
+										Fmr Ops & Marketing, Primary Cofounder Ollie, Cooper
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- What We Do -->
+			<div class="section flex h-[93vh] w-screen flex-row items-start justify-center bg-white lg:mr-12 lg:items-center">
+				<div
+					class="mx-auto flex h-auto w-full flex-col items-start justify-center gap-y-6 pl-12 md:pl-16 lg:items-start"
+				>
+					<h2
+						class="text-left font-sans text-3xl font-black leading-none text-[#173320] md:text-5xl md:leading-none lg:text-center"
+					>
+						What we do
+					</h2>
+					<div
+						class="mt-6 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-12 lg:mx-auto lg:max-w-3xl xl:max-w-5xl xl:gap-x-24"
+					>
+						<div class="flex w-full flex-col items-start gap-y-2 md:gap-y-4">
+							<h3 class="font-sans text-xl font-bold text-[#257756] lg:text-3xl">Agency</h3>
+							<ul
+								class="list-outside list-disc whitespace-nowrap font-sans text-base font-light leading-snug tracking-wide text-black md:text-lg md:leading-relaxed"
+							>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Brand identity
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Comms & PR
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Creative design
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Content & social
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Paid acquisition
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Retention marketing
+								</li>
+							</ul>
+						</div>
+						<div class="flex w-full flex-col items-start gap-y-2 md:gap-y-4">
+							<h3 class="font-sans text-xl font-bold text-[#257756] lg:text-3xl">Studio</h3>
+							<ul
+								class="list-outside list-disc whitespace-nowrap font-sans text-base font-light leading-snug tracking-wide text-black md:text-lg md:leading-relaxed"
+							>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Digital product strategy
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />UX / UI design
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Front-end & back-end dev
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Product mgmt & QA
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Data & A.I.
+								</li>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />Security & privacy
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Clients -->
+			<div class="section h-[93vh] w-screen">
+				<!-- Slide 2 - Brands -->
+				<div class="slide active relative flex h-full w-screen flex-row items-center justify-center bg-[#540421]">
+					<h1 class="px-6 text-center font-sans text-3xl font-bold text-[#DF4437] lg:text-5xl">
+						Folks we've worked with
+					</h1>
+					<img src="./assets/media/clients.webp" alt="Folks we've worked with" class="mx-auto mt-12 w-4/5" />
+				</div>
+				<!-- Slide 2 - Testimonial 1 -->
+				<div class="slide flex h-[93vh] w-full flex-row items-center justify-center bg-[#540421] text-[#DF4437]">
+					<div class="mx-auto h-full w-5/6 lg:w-4/5">
+						<p class="text-center font-sans text-3xl font-light leading-snug tracking-wide text-[#DF4437] lg:text-6xl">
+							“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend massa eget sapien mattis rutrum.
+							Praesent non diam vitae massa feugiat dictum.”
+						</p>
+						<p
+							class="mt-12 text-center font-sans text-sm font-light leading-loose tracking-wide text-white lg:text-base"
+						>
+							First Last — Happy Client
+						</p>
+					</div>
+				</div>
+				<!-- Slide 3 - Testimonial 2 -->
+				<div class="slide flex h-[93vh] w-full flex-row items-center justify-center bg-[#540421] text-[#DF4437]">
+					<div class="mx-auto h-full w-5/6 lg:w-4/5">
+						<p class="text-center font-sans text-3xl font-light leading-snug tracking-wide text-[#DF4437] lg:text-6xl">
+							“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend massa eget sapien mattis rutrum.
+							Praesent non diam vitae massa feugiat dictum.”
+						</p>
+						<p
+							class="mt-12 text-center font-sans text-sm font-light leading-loose tracking-wide text-white lg:text-base"
+						>
+							First Last — Happy Client
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- Pricing -->
+			<div class="section flex h-[93vh] w-screen flex-row items-center justify-center bg-white">
+				<div class="mx-auto flex h-auto !w-5/6 flex-col items-start justify-center gap-y-6 lg:!w-full">
+					<h2
+						class="text-left font-sans text-3xl font-black leading-none text-[#173320] md:text-5xl md:leading-none lg:text-center"
+					>
+						Pricing
+					</h2>
+					<div
+						class="grid grid-cols-1 md:mt-6 md:grid-cols-2 md:gap-x-12 lg:mx-auto lg:max-w-3xl xl:max-w-5xl xl:gap-x-24"
+					>
+						<div class="flex flex-col items-start gap-y-2 pb-6">
+							<h3 class="font-sans text-xl font-bold text-[#257756] lg:text-3xl">Fractional CXO</h3>
+							<p class="mb-2 font-sans text-base font-medium text-[#173320] lg:text-lg">$10k-20k/mo</p>
+							<ul
+								class="list-none font-sans text-base font-light leading-snug tracking-wide text-black md:text-lg md:leading-relaxed"
+							>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />10-20hr per week commitment
+								</li>
+								<li class="mb-2 flex flex-row items-start">
+									<img src="./assets/media/disc.svg" class="mr-2 mt-1.5 h-4 w-auto" />Full team immersion: your email,
+									your Slack, public advocacy
+								</li>
+								<li class="flex flex-row items-start">
+									<img src="./assets/media/disc.svg" class="mr-2 mt-1.5 h-4 w-auto" />
+									Responsible for setting our own OKRs, developing strategies, and managing projects to achieve results
+									on budget and on time
+								</li>
+							</ul>
+							<a
+								href="mailto:hello@extendedfam.co"
+								target="_blank"
+								class="group ml-1 mt-2 flex w-fit flex-row items-center justify-start gap-x-3 rounded-full px-3 py-1 shadow ring-[0.5px] ring-[#173320] transition duration-500 ease-in-out hover:ring-2 hover:ring-[#257756] lg:mt-6 lg:px-4"
+							>
+								<p class="font-sans text-base font-light text-[#173320] group-hover:text-[#257756] lg:text-lg">
+									Get in touch
+								</p>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="lucide lucide-rocket h-4 w-4 fill-none text-[#173320] transition duration-500 ease-in-out group-hover:animate-pulse group-hover:text-[#257756]"
+								>
+									<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+									<path
+										d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+									/>
+									<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+									<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+								</svg>
+							</a>
+						</div>
+						<div class="flex flex-col items-start gap-y-2 pb-6">
+							<h3 class="font-sans text-xl font-bold text-[#257756] lg:text-3xl">Studio + agency services</h3>
+							<p class="mb-2 font-sans text-base font-medium text-[#173320] lg:text-lg">$5k-25k/mo, or project-based</p>
+							<ul
+								class="list-none font-sans text-base font-light leading-snug tracking-wide text-black md:text-lg md:leading-relaxed"
+							>
+								<li class="mb-2 flex flex-row items-center">
+									<img src="./assets/media/disc.svg" class="mr-2 h-4 w-auto" />10-200hr per week commitments
+								</li>
+								<li class="mb-2 flex flex-row items-start">
+									<img src="./assets/media/disc.svg" class="mr-2 mt-1.5 h-4 w-auto" />Everything from 1 expert
+									contractor to the perfect 5-person team, and up.
+								</li>
+								<li class="flex flex-row items-start">
+									<img src="./assets/media/disc.svg" class="mr-2 mt-1.5 h-4 w-auto" />
+									Responsible for executing on the strategies; eg write content, design creative, wireframe UX/UI, write
+									code, run a software service.
+								</li>
+							</ul>
+							<a
+								href="mailto:hello@extendedfam.co"
+								target="_blank"
+								class="group mt-2 flex w-fit flex-row items-center justify-start gap-x-3 rounded-full px-3 py-1 shadow ring-[0.5px] ring-[#173320] transition duration-500 ease-in-out hover:ring-2 hover:ring-[#257756] lg:mt-6 lg:px-4"
+							>
+								<p class="font-sans text-base font-light text-[#173320] group-hover:text-[#257756] lg:text-lg">
+									Get in touch
+								</p>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="lucide lucide-rocket h-4 w-4 fill-none text-[#173320] transition duration-500 ease-in-out group-hover:animate-pulse group-hover:text-[#257756]"
+								>
+									<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+									<path
+										d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+									/>
+									<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+									<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- How to Get Started -->
+			<div class="section fp-auto-height flex w-screen flex-row items-center justify-center bg-[#540421] py-24">
+				<div class="mx-auto flex h-auto !w-5/6 flex-col items-start justify-center gap-y-6 lg:!w-full">
+					<h2
+						class="text-left font-sans text-3xl font-black leading-none text-[#DF4437] md:text-5xl md:leading-none lg:text-center"
+					>
+						How to get started
+					</h2>
+					<div
+						class="mt-6 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-12 lg:mx-auto lg:mt-12 lg:max-w-3xl xl:max-w-5xl"
+					>
+						<div class="flex w-full flex-col items-start gap-y-2 md:gap-y-4">
+							<img src="./assets/media/oneWhite.svg" class="h-6 w-auto lg:h-8" />
+							<img src="./assets/media/orangeLine.svg" class="h-auto w-full" />
+							<p
+								class="font-sans text-base font-light leading-snug tracking-wide text-white md:text-lg md:leading-relaxed"
+							>
+								We conduct a 2-4 week discovery process where we audit your data, interview your stakeholders, and then
+								deliver a recommended set of OKRs and a detailed project plan for 3 months out or more.
+							</p>
+						</div>
+						<div class="flex w-full flex-col items-start gap-y-2 md:gap-y-4">
+							<img src="./assets/media/twoWhite.svg" class="h-6 w-auto lg:h-8" />
+							<img src="./assets/media/orangeLine.svg" class="h-auto w-full" />
+							<p
+								class="font-sans text-base font-light leading-snug tracking-wide text-white md:text-lg md:leading-relaxed"
+							>
+								Once an SOW has been signed, we will release our kickoff documents and start scheduling workshops ASAP.
+								The goal is to get from signing to planning to operational and driving an impact as quickly as possible.
+							</p>
+						</div>
+						<a
+							href="mailto:hello@extendedfam.co"
+							target="_blank"
+							class="group my-6 ml-1 flex w-fit flex-row items-center justify-center gap-x-3 rounded-full px-4 py-2.5 ring-[0.5px] ring-[#DF4437] transition duration-500 ease-in-out hover:ring-2"
+						>
+							<p
+								class="font-sans text-base font-medium leading-none tracking-wide text-white transition duration-500 ease-in-out group-hover:text-[#DF4437] md:text-lg md:leading-none"
+							>
+								Get in touch
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="lucide lucide-rocket h-4 w-4 fill-none text-white transition duration-500 ease-in-out group-hover:animate-pulse group-hover:text-[#DF4437]"
+							>
+								<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+								<path
+									d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+								/>
+								<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+								<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- Footer -->
+			<div class="section fp-auto-height bg-[#540421] pb-24">
+				<div class="my-3 flex !w-screen flex-col items-center justify-around md:flex-row">
+					<a href="">
+						<img src="./assets/logos/orange.svg" alt="Extended Family Logo" class="mx-auto mb-6 h-full w-64 md:mb-0" />
+					</a>
+					<div class="flex w-fit flex-col items-center justify-center gap-x-3 md:flex-row md:gap-x-4">
+						<h1 class="hidden text-center font-sans text-2xl font-light leading-none text-[#DF4437] lg:block">
+							Let's get started...
+						</h1>
+						<a
+							href="mailto:hello@extendedfam.co"
+							target="_blank"
+							class="group mx-auto flex w-fit flex-row items-center justify-center gap-x-3 rounded-full px-4 py-2.5 ring-[0.5px] ring-[#DF4437] transition duration-500 ease-in-out hover:ring-2 lg:my-3 lg:ml-3"
+						>
+							<p
+								class="font-sans text-sm font-light leading-none tracking-wide text-white transition duration-500 ease-in-out group-hover:text-[#DF4437] md:text-base md:leading-none"
+							>
+								hello@extendedfam.co
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="lucide lucide-rocket h-4 w-4 fill-none text-white transition duration-500 ease-in-out group-hover:animate-pulse group-hover:text-[#DF4437]"
+							>
+								<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+								<path
+									d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+								/>
+								<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+								<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FullPage JS Script -->
+		<script>
+			new fullpage('#fullpage', {
+				menu: '#menu',
+				lockAnchors: false,
+				anchors: [
+					'home',
+					'how-we-work',
+					'partners-and-advisors',
+					'what-we-do',
+					'clients',
+					'pricing',
+					'get-started',
+					'footer',
+				],
+			})
+		</script>
+		<!-- Mobile Menu Script -->
+		<script>
+			function toggleMobileMenu(menu) {
+				menu.classList.toggle('open')
+			}
+		</script>
+	</body>
+</html>

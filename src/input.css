@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;700;900&display=swap');
+
+#hamburger-icon {
+	margin: auto 0;
+	display: none;
+	cursor: pointer;
+}
+
+#hamburger-icon div {
+	width: 35px;
+	height: 3px;
+	background-color: white;
+	margin: 6px 0;
+	transition: 1; /* Shorten the transition duration to 0.5s */
+}
+
+.open .mobile-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 24px;
+	opacity: 1;
+	transform: translateY(0); /* Add this for smoother sliding effect */
+}
+
+.mobile-menu {
+	display: none;
+	position: absolute;
+	top: 7vh;
+	left: 0;
+	height: 93vh;
+	width: 100%;
+	opacity: 0;
+	transform: translateY(-100%); /* Initially move the menu off-screen */
+	transition:
+		opacity 1s ease-in,
+		transform 1s ease-in; /* Add transition to both opacity and transform properties */
+}
+
+@media only screen and (max-width: 1024px) {
+	header nav {
+		display: none;
+	}
+
+	#hamburger-icon {
+		display: block;
+	}
+}
